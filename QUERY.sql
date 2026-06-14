@@ -25,6 +25,7 @@ CREATE TABLE bookings (
     FOREIGN KEY (user_id) REFERENCES users(user_id),
     FOREIGN KEY (match_id) REFERENCES matches(match_id)
 );
+
 -- INSERT INTO Users
 INSERT INTO users (user_id, full_name, email, role, phone_number) VALUES
 (1, 'Tanvir Rahman', 'tanvir@mail.com', 'Football Fan', '+8801711111111'),
